@@ -34,12 +34,12 @@ def long_words(word_list):
     return new_list
 
 # Write a function that finds the smallest element in a list of integers and returns it.
+<<<<<<< HEAD
 def smallest(some_list):
     smallest = some_list[0]
     for i in range(len(some_list)-1):
         if some_list[i+1] < smallest:
             smallest = some_list[i+1]
-
     return smallest
 
 #    return min(some_list)
@@ -82,7 +82,6 @@ def mult_numbers(numbers):
     for number in numbers:
         product *= number
     return product
-
 
 """ AMY: is there a better way to do this?"""
 # Write a function that joins all the strings in a list together (without using the join method) and returns a single string.

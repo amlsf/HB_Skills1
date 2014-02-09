@@ -10,5 +10,4 @@ def average(numbers):
     average = float(total) / len(numbers)
     return average
 
-
 print average(num_list)
